@@ -12,7 +12,7 @@ console.log(coucou);
 // Question 3 : Quelle est l'URL vers laquelle pointe le 3ème élément <a> de la page HTML ? Imprime-la dans la console.
 console.log("");
 console.log("Question 3 : Quelle est l'URL vers laquelle pointe le 3ème élément <a> de la page HTML ?");
-let url3 = document.getElementsByTagName('a')[3].href;
+let url3 = document.getElementsByTagName('a')[2].href;
 console.log(url3);
 
 // Question 4 : Combien d'éléments portent la classe compte-moi ? Imprime le résultat dans la console.
@@ -39,5 +39,5 @@ console.log(countLi2);
 // Dans le second <ul>, le premier élément de la liste (tag <li>) est caché visuellement de l'utilisateur mais toi, tu peux en récupérer le contenu. Affiche-le dans la console.
 console.log("");
 console.log("Question 7 : Jeu de piste");
-let onYCroit = document.getElementsByTagName('div')[0].getElementsByTagName('ul')[1].getElementsByTagName('li')[1].innerHTML;
+let onYCroit = document.getElementsByTagName('div')[0].getElementsByTagName('ul')[1].getElementsByTagName('li')[0].innerHTML;
 console.log(onYCroit);
